@@ -1,0 +1,188 @@
+body
+{
+    margin: 0;
+    font-family: 'Glory', sans-serif;
+    font-weight: 700;
+}
+html
+{
+    background-color: rgb(235, 235, 235);
+}
+.login_card
+{       
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+}
+.container
+{
+    padding: 30px 10px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 350px;
+    height: 440px;
+    border-radius: 15px;
+    background-color: white;   
+    border: 4px solid #331c73;
+}
+
+
+.login_content
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.row{
+    text-align: center;
+    margin-top: -16px;
+    margin-bottom: 22px;
+}
+.login_content .logo{
+    font-size: 22px;
+    color: rgb(95, 93, 93);
+    text-align: center;
+    font-weight: 400;
+}
+
+.row_btn
+{
+    display: flex;
+    flex-direction:  row;  
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.row_btn .btn{
+    width: 50%;
+    height: 90%;
+    background-color: #331c73;
+    transition: 0.4s;
+}
+
+.btn1
+{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.btn2
+{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.btn button
+{
+    font-size: 18px;
+    width: 100%;
+    height: 14%;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+
+}
+
+.row_information
+{
+    position: absolute;
+    top: 117px;
+    right: 10px;
+    width: 94%;
+    background-color: white;
+    height: 50%;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 2px 2px 7px 3px #331c73;
+}
+.info input
+{
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 85%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #757580;
+    border-radius: 15px;
+    font-size: 16px;    
+}
+
+.info input:focus
+{
+    outline: none;
+    border: 1.5px solid #331c73;
+}
+
+.for{
+    font-size: 15px;
+    color: #331c73;
+    margin-top: 14px;
+    margin-right: 5px;
+    float: right;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+@media (max-width:350px)
+{
+    .for{
+        float: none;
+        margin:10px auto;
+    }
+}
+
+.row_information button
+{
+    width: 33%;
+    height: 40px;
+    border-radius: 19px;
+    background: #331c73;
+    position: absolute;
+    bottom: -20px;
+    left: 110px;
+    font-size: 17px;
+    color: #b3b2b2;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.row_information button:hover
+{
+    color: white;
+    
+}
+
+.pointer
+{
+    content: '';
+    border: 20px solid;
+    border-color: transparent transparent white transparent;
+    position: absolute;
+    top: -40px;
+    left: 17%;
+    transition: 0.4s;
+}
+
+.rem
+{
+    display: inline-block;
+}
+.rem div
+{
+    display: inline-block;
+    margin-top: 14px;
+    color: rgb(88, 77, 99);
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.rem div:hover
+{
+    color: #331c73;
+}
